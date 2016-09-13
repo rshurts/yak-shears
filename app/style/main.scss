@@ -1,0 +1,17 @@
+@import 'fonts';
+
+$family-primary: 'Raleway', sans-serif;
+$font-title: 'Lobster', serif;
+$weight-title-normal: 400;
+$weight-title-bold: 700;
+
+$size-1: 96px;
+$size-6: 15px;
+$size-7: 12px;
+
+
+.title {
+  font-family: $font-title;
+}
+
+@import '~bulma';
