@@ -8,7 +8,7 @@ const Footer = () => (
           No yaks were harmed in the development of this software.
         </p>
         <p>
-          <strong>Yak Shears</strong> by Russell Shurts.
+          <strong>Yak Shears</strong> by <a href="https://www.linkedin.com/in/russellwshurts">Russell Shurts</a>.
         </p>
       </div>
     </div>
