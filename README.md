@@ -31,3 +31,6 @@ Yak Shears also provides a hashed modular build output for a maintainable perfor
 - [ESLint](http://eslint.org/)
 - [StyleLint](http://stylelint.io/)
 - [Babel (ES2015)](https://babeljs.io/)
+
+## Author
+[Russell Shurts](https://www.linkedin.com/in/russellwshurts)
