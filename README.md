@@ -4,9 +4,13 @@ A react, redux, webpack boilerplate and example application.
 ## Directions
 
 1. Clone this repo.
-2. Remove the `.git` directory.
-3. Update `package.json` for your app, including the deploy domain name.
-4. Modify the sample app to create your own awesome app.
+1. `cd` into `yak-shears`
+1. Remove the `.git` directory.
+1. Update `package.json` for your app, including the deploy domain name.
+1. Run `npm i`.
+1. Run `npm start`.
+1. Open [localhost:8080](http://localhost:8080) in your browser.
+1. Modify the sample app to create your own awesome app.
 
 ## Why use Yak Shears?
 
