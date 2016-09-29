@@ -38,7 +38,7 @@ const Home = () => (
                   </article>
                   <article className="tile is-child notification">
                     <p className="title">Fontawesome</p>
-                    <p className="subtitle"><i className="fa fa-battery-full" />&amp;s included</p>
+                    <p className="subtitle"><i className="fa fa-battery-full" />&apos;s included</p>
                   </article>
                 </div>
                 <div className="tile is-parent is-vertical">
