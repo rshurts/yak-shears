@@ -7,8 +7,8 @@ A react, redux, webpack boilerplate and example application.
 1. `cd` into `yak-shears`
 1. Remove the `.git` directory.
 1. Update `package.json` for your app, including the deploy domain name.
-1. Run `npm i`.
-1. Run `npm start`.
+1. Run `yarn install`.
+1. Run `yarn start`.
 1. Open [localhost:8080](http://localhost:8080) in your browser.
 1. Modify the sample app to create your own awesome app.
 
@@ -20,6 +20,7 @@ Yak Shears focuses on a good developer experience. It does this by:
 - Applying a standard react and redux implementation, with support for Redux DevTools.
 - Providing a css framework and icons pack.
 - Packing in linting with best practice style guides.
+- Using yarn for packagemanagement.
 - Using a sample application to demonstrate how things work.
 
 Yak Shears also provides a hashed modular build output for a maintainable performant web app.
@@ -35,6 +36,7 @@ Yak Shears also provides a hashed modular build output for a maintainable perfor
 - [ESLint](http://eslint.org/)
 - [StyleLint](http://stylelint.io/)
 - [Babel (ES2015)](https://babeljs.io/)
+- [Yarn](https://yarnpkg.com/)
 
 ## Author
 [Russell Shurts](https://www.linkedin.com/in/russellwshurts)

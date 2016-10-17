@@ -8,7 +8,7 @@
     "start": "webpack-dev-server",
     "build": "webpack",
     "stats": "webpack --profile --json > stats.json",
-    "deploy": "npm run build && mv build/index.html build/200.html && surge -p build --domain https://yak-shears.surge.sh",
+    "deploy": "yarn run build && mv build/index.html build/200.html && surge -p build --domain https://yak-shears.surge.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .js --ext .jsx --cache || stylelint **/*.scss"
   },

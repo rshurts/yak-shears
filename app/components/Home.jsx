@@ -23,6 +23,7 @@ const Home = () => (
             with support for Redux DevTools.</li>
             <li>Providing a css framework and icons pack.</li>
             <li>Packing in linting with best practice style guides.</li>
+            <li>Using yarn for package management.</li>
             <li>Using a sample application to demonstrate how things work.</li>
           </ul>
           <p>Yak Shears also provides a hashed modular build output for {' '}

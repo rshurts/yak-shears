@@ -14,6 +14,7 @@ const Docs = () => (
         <div className="content">
           <h1>Getting Started with Yak Shears</h1>
           <ol>
+            <li>Ensure <code>yarn</code> is <a href="https://yarnpkg.com/en/docs/install">installed</a>.</li>
             <li>
               Clone the {' '}
               <a href="https://github.com/rshurts/yak-shears">
@@ -22,8 +23,8 @@ const Docs = () => (
               .
             </li>
             <li><code>cd</code> into the <code>yak-shears</code> directory.</li>
-            <li>Run <code>npm install</code>.</li>
-            <li>Run <code>npm start</code>.</li>
+            <li>Run <code>yarn install</code>.</li>
+            <li>Run <code>yarn start</code>.</li>
             <li>Open <a href="http://localhost:8080">localhost:8080</a> in your browser.</li>
           </ol>
 
@@ -31,7 +32,7 @@ const Docs = () => (
           <h1>Making Yak Shears Your Own</h1>
           <p>
             Yak Shears is easily modified by adding or removing packages {' '}
-            through <a href="https://www.npmjs.com/">NPM</a>. However, {' '}
+            through <a href="https://yarnpkg.com/">yarn</a>. However, {' '}
             what follows are a few things you will probably want to do out of the box.
           </p>
           <h2>What Needs to Stay</h2>
