@@ -105,6 +105,12 @@ const Docs = () => (
             , a complete rewrite and breaking change from version 2. {' '}
             Please ensure you are referencing v2 documentation when working with react router.
           </p>
+          <h2>Yarn and Scripts</h2>
+          <p>
+            Yarn is a great package manager, but seems to have some issues around {' '}
+            complex scripts. Until this is fixed, stick to using <code>npm run lint</code> {' '}
+            and <code>npm run deploy</code>.
+          </p>
         </div>
       </div>
     </section>
