@@ -23,8 +23,8 @@ const Docs = () => (
               .
             </li>
             <li><code>cd</code> into the <code>yak-shears</code> directory.</li>
-            <li>Run <code>yarn install</code>.</li>
-            <li>Run <code>yarn start</code>.</li>
+            <li>Run <code>npm install</code>.</li>
+            <li>Run <code>npm start</code>.</li>
             <li>Open <a href="http://localhost:8080">localhost:8080</a> in your browser.</li>
           </ol>
 
@@ -32,7 +32,7 @@ const Docs = () => (
           <h1>Making Yak Shears Your Own</h1>
           <p>
             Yak Shears is easily modified by adding or removing packages {' '}
-            through <a href="https://yarnpkg.com/">yarn</a>. However, {' '}
+            through <a href="https://www.npmjs.com/">npm</a>. However, {' '}
             what follows are a few things you will probably want to do out of the box.
           </p>
           <h2>What Needs to Stay</h2>
@@ -104,12 +104,6 @@ const Docs = () => (
             </a>
             , a complete rewrite and breaking change from version 2. {' '}
             Please ensure you are referencing v2 documentation when working with react router.
-          </p>
-          <h2>Yarn and Scripts</h2>
-          <p>
-            Yarn is a great package manager, but seems to have some issues around {' '}
-            complex scripts. Until this is fixed, stick to using <code>npm run lint</code> {' '}
-            and <code>npm run deploy</code>.
           </p>
         </div>
       </div>
