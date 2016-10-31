@@ -97,9 +97,9 @@ switch (TARGET) {
     break;
   default:
     config = merge(
+      common,
       style.lint(PATHS.app),
       javascript.lint(PATHS.app),
-      common,
       build.devServer({
         // Customise host/port here if needed
         host: process.env.HOST,
