@@ -6,7 +6,8 @@
         "import"
     ],
     "env": {
-      "browser": true
+      "browser": true,
+      "mocha": true
     },
     "rules": {
       "arrow-parens": ["error", "always"],
