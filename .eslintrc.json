@@ -10,7 +10,6 @@
       "mocha": true
     },
     "rules": {
-      "arrow-parens": ["error", "always"],
       "func-names": 0,
       "vars-on-top": 0,
       "import/no-extraneous-dependencies": [
