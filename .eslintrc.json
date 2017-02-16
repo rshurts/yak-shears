@@ -21,6 +21,7 @@
       "import/no-mutable-exports": 0,
       "jsx-a11y/no-static-element-interactions": 0,
       "react/forbid-prop-types": ["error", { "forbid": ["any"] }],
-      "react/no-unused-prop-types": ["error", { "customValidators": [], "skipShapeProps": true }]
+      "react/no-unused-prop-types": ["error", { "customValidators": [], "skipShapeProps": true }],
+      "react/require-default-props": 0
     }
 }
