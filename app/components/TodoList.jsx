@@ -3,7 +3,7 @@ import Todo from './Todo';
 
 const TodoList = ({ todos, onTodoClick }) => (
   <ul style={{ 'list-style': 'none', 'padding-left': 0, 'margin-left': 0 }}>
-    {todos.map((todo) =>
+    {todos.map(todo =>
       <Todo
         key={todo.id}
         {...todo}
